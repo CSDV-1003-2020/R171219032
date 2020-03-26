@@ -1,3 +1,4 @@
 # R171219032
 Sarthak Srivastava's Repository
-Team Mebers details?
+Teammates : Sahil Bansal R171219031
+            Shivansh Pratap Singh R171219033
