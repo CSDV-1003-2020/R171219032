@@ -11,18 +11,18 @@ struct node* rear = NULL;
 struct node* temp;
 
 void Insert() {
-   int val;
+   int value;
    cout<<"Insert an element in the queue : "<<endl;
-   cin>>val;
+   cin>>value;
    if (rear == NULL) {
       rear = (struct node *)malloc(sizeof(struct node));
       rear->next = NULL;
-      rear->data = val;
+      rear->data = value;
       front = rear;
    } else {
       temp=(struct node *)malloc(sizeof(struct node));
       rear->next = temp;
-      temp->data = val;
+      temp->data = data;
       temp->next = NULL;
       rear = temp;
    }
