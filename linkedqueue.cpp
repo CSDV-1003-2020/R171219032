@@ -12,7 +12,7 @@ struct node* temp;
 
 void Insert() {
    int val;
-   cout<<"Insert the element in queue : "<<endl;
+   cout<<"Insert an element in the queue : "<<endl;
    cin>>val;
    if (rear == NULL) {
       rear = (struct node *)malloc(sizeof(struct node));
@@ -49,10 +49,10 @@ void Delete() {
 void Display() {
    temp = front;
    if ((front == NULL) && (rear == NULL)) {
-      cout<<"Queue is empty"<<endl;
+      cout<<"Queue is Empty"<<endl;
       return;
    }
-   cout<<"Queue elements are: ";
+   cout<<"Queue Elements are: ";
    while (temp != NULL) {
       cout<<temp->data<<" ";
       temp = temp->next;
@@ -62,11 +62,11 @@ void Display() {
 int main() {
    int ch;
    cout<<"1) Insert element to queue"<<endl;
-   cout<<"2) Delete element from queue"<<endl;
-   cout<<"3) Display all the elements of queue"<<endl;
+   cout<<"2) Delete Element from queue"<<endl;
+   cout<<"3) Display all the Elements of queue"<<endl;
    cout<<"4) Exit"<<endl;
 do {
-   cout<<"Enter your choice : "<<endl;
+   cout<<"Enter your Choice : "<<endl;
    cin>>ch;
    switch (ch) {
       case 1: Insert();
