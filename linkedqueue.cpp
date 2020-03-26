@@ -82,4 +82,5 @@ do {
 } while(ch!=4);
    return 0;
 }
-!!!!!!
+<<<<<<< HEAD
+>>>>>>> test
