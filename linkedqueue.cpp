@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 struct node {
    int data;
    struct node *next;
@@ -7,6 +9,7 @@ struct node {
 struct node* front = NULL;
 struct node* rear = NULL;
 struct node* temp;
+
 void Insert() {
    int val;
    cout<<"Insert the element in queue : "<<endl;
