@@ -10,7 +10,6 @@ struct node* front = NULL;
 struct node* rear = NULL;
 struct node* temp;
 
-//This is the change made
 void Insert() {
    int value;
    cout<<"Insert an element in the queue : "<<endl;
