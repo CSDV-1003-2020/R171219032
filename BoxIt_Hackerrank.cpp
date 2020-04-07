@@ -27,7 +27,8 @@ class Box{
     int getHeight(){
         return h;
     }
-    long long CalculateVolume(){
+    long long CalculateVolume()  //return the volume of the box
+    {
         return (long long)l*b*h;
     }
 
@@ -45,3 +46,4 @@ class Box{
         return output;
     }
 };
+//end
