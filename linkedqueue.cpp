@@ -10,7 +10,7 @@ struct node* front = NULL;
 struct node* rear = NULL;
 struct node* temp;
 
-void Insert() {
+void Insert() {                           // Insert Fuction
    int value;
    cout<<"Insert an element in the queue : "<<endl;
    cin>>value;
@@ -27,7 +27,7 @@ void Insert() {
       rear = temp;
    }
 }
-void Delete() {
+void Delete() {                           //Delete Fuction
    temp = front;
    if (front == NULL) {
       cout<<"Underflow"<<endl;
@@ -46,7 +46,7 @@ void Delete() {
       rear = NULL;
    }
 }
-void Display() {
+void Display() {                          //Display function 
    temp = front;
    if ((front == NULL) && (rear == NULL)) {
       cout<<"Queue is Empty"<<endl;
